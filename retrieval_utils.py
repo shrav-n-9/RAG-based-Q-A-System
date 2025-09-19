@@ -29,7 +29,7 @@ class Retriever:
         """
         return self.model.encode([query], convert_to_numpy=True)
     
-    def get_top_k(self, query: str, k: int = 3) -> list:
+    def get_top_k(self, query: str, k: int) -> list:
         """
         Retrieve top-K passages relevant to the query.
         Returns a list of dicts: {id, text, score}.

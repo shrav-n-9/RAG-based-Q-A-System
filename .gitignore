@@ -1,7 +1,16 @@
 lec_rag/   
 __pycache__/
 data/
+front-end/
+app.py
 
 .env
+.cache
 
 Production Log.doc
+
+llamafile-0.9.3.exe
+main.log
+evaluate_rag.log
+
+llama-3-8b-instruct-q4.gguf
