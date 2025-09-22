@@ -1,11 +1,10 @@
 lec_rag/   
 __pycache__/
 data/
-front-end/
-app.py
 
 .env
 .cache
+.vscode
 
 Production Log.doc
 
