@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture Transcript Q&A</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="/static/logo.png" alt="Logo">
+  </div>
+
+  <!-- Hamburger -->
+  <button id="menuBtn" class="menu-btn">☰</button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <h3>Menu <span class="close-btn" id="closeBtn">×</span></h3>
+    <button id="newChat">+ New Chat</button>
+    <h4>History</h4>
+    <div id="history">No chats yet</div>
+  </div>
+
+  <!-- Chat container (centered) -->
+  <main class="chat-wrapper">
+    <header>
+      <h2>Lecture Transcript Q&A</h2>
+    </header>
+    <div class="chat-container" id="chatContainer">
+      <p class="placeholder">Ask a question about lecture transcripts...</p>
+    </div>
+    <form id="chatForm" class="input-bar">
+      <input type="text" id="chatInput" placeholder="Type your question...">
+      <button type="submit" id="sendBtn">
+        <img src="/static/send-icon.png" alt="Send">
+      </button>
+    </form>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
