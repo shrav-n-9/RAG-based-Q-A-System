@@ -1,6 +1,7 @@
 lec_rag/   
 __pycache__/
 data/
+.ipynb_checkpoints/
 
 .env
 .cache
