@@ -21,7 +21,7 @@ class Retriever:
             self.mapping = json.load(f)
 
         #Load embedding model 
-        self.model = SentenceTransformer(model_name)
+        self.model = SentenceTransformer(model_name, device = 'cpu')
 
     def embed_query(self, query: str) -> np.ndarray:
         """
